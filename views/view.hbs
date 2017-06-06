@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <h1 align="center" >YourLovedOne.net</h1>
+    <div id="errordiv" class="alert-box error hidden"><span>error: </span>No results!</div>
+    <form class="form-inline">
+            <div class="col-md-9">
+            <input type="text" id="query" class="form-control" placeholder="Start Typing!" width="100%"></div>
+            <div class="btn-group in-line" data-toggle="buttons">
+                <label class="btn btn-primary active">
+                    <input type="radio" id="nameRadio" name="q" value="name" checked="checked"> Name
+                </label>
+                <label class="btn btn-primary">
+                <input type="radio" id="diasterRadio" name="q" value="disaster">Disaster<br>
+                </label>
+        	</div>
+    </form>
+    <table class="table text-center table-bordered">
+    <div class="row">
+        <tr id='header'>
+        <div class="col-sm-2">
+            <th id="searchBy" class="text-center"></th></div>
+        <div class="col-sm-10">
+            <th class="text-center">Message</th></div>
+        </tr>
+        </div>
+    </table>
+    <script src="javascripts/ajax.js"></script>
+</div>
